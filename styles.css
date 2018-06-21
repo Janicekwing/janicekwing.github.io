@@ -1,7 +1,17 @@
 body {
-    color: green;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', serif;
 }
 
-li {
-    display:inline;
+.nav {
+    background-color: #595959;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.nav li {
+    display:inline-block;
+    padding-right: 50px;
 }
