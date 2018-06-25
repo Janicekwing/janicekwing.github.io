@@ -6,12 +6,23 @@ body {
 
 .nav {
     background-color: #595959;
-    color: #FFFFFF;
-    text-align: center;
+    color: #FFF;
+    text-align: right;
     padding: 20px 0 20px 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.2em;
 }
 
 .nav li {
     display:inline-block;
     padding-right: 50px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.nav a:hover {
+    color: #C1C1C1;
 }
