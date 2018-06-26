@@ -58,16 +58,22 @@ article a{
     width:250px;
 }
 
+
 .projects img{
     float: left;
     width:30%;
     height: auto;
 }
 
+.projects { /* https://www.w3schools.com/css/tryit.asp?filename=trycss_layout_clearfix */
+    overflow: auto;
+}
+
 .projects p{
     float:right;
     width:70%;
 }
+
 
 footer {
     padding: 20px;
