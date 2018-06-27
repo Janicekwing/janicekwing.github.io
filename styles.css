@@ -14,13 +14,14 @@ header {
     text-align: center;
 }
 
-.nav {
+.nav { /*position: fixed -> make navbar unmoveable */
     background-color: #595959;
     color: #FFF;
     text-align: right;
     padding: 20px 0 20px 0;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 1.2em;
+
 }
 
 .nav li {
@@ -33,10 +34,17 @@ header {
     color: #FFF;
 }
 
-.nav a img{ /* following three lines sets logo to the center*/
+.nav a img{
+    width:200px;
+    height: auto;
+    position: relative;
+    top: 10px;
+    right: 300px;
+    /*float: left;
+    /* following three lines sets logo to the center
     display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;*/
 }
 
 .nav a:hover {
