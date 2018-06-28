@@ -29,7 +29,6 @@ header {  /*photo of me */
     padding: 20px 0 20px 0;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 1.2em;
-
 }
 
 .nav li {
@@ -94,6 +93,10 @@ header {  /*photo of me */
     float:right;
     width:70%;
 }
+
+/* Resume
+----------------------------- */
+
 
 /* Footer
 ----------------------------- */
