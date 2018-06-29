@@ -42,16 +42,12 @@ header {  /*photo of me */
 }
 
 .nav img{
-    width:200px;
+    max-width:200px;
     height: auto;
-    position: relative;
-    top: 10px;
-    right: 300px;
-    /*float: left;
-    /* following three lines sets logo to the center
+
     display: block;
     margin-left: auto;
-    margin-right: auto;*/
+    margin-right: auto;
 }
 
 .nav a:hover {
@@ -79,19 +75,20 @@ header {  /*photo of me */
 
 /* Portfolio/Projects
 ----------------------------- */
-.projects img{
-    float: left;
-    width:30%;
-    height: auto;
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    -webkit-align-content: flex-start;
 }
 
-.projects { /* https://www.w3schools.com/css/tryit.asp?filename=trycss_layout_clearfix */
-    overflow: auto;
+.projects img {
+    width: 30%;
+    height: 30%;
 }
 
-.projects p{
-    float:right;
-    width:70%;
+.projects p {
+    width: 70%;
 }
 
 /* Resume
