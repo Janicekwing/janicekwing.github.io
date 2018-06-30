@@ -32,6 +32,7 @@ header {  /*photo of me */
     position: fixed; /* fixed navbar */
     top: 0; /*navbar is positioned at the top of the page */
     width: 100%;
+    margin: 0;
 }
 
 body {
