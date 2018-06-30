@@ -29,6 +29,13 @@ header {  /*photo of me */
     padding: 20px 0 20px 0;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 1.2em;
+    position: fixed; /* fixed navbar */
+    top: 0; /*navbar is positioned at the top of the page */
+    width: 100%;
+}
+
+body {
+    margin-top: 180px; /* margin top to overload content overlay */
 }
 
 .nav li {
