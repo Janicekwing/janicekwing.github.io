@@ -41,10 +41,10 @@ body {
 
 .nav li {
     display:inline-block;
-    padding-right: 50px;
+    padding-right: 50px;;
 }
 
-.nav li a {
+.nav a {
     text-decoration: none;
     color: #FFF;
 }
@@ -56,6 +56,14 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+
+    /*display: inline-block;*/
+    /*position: absolute;*/
+    /*left: 50%;*/
+    /*margin-left: -50px !important;  !* 50% of logo width *!*/
+
 }
 
 .nav a:hover {
@@ -66,6 +74,22 @@ body {
 /* Contact
 ----------------------------- */
 
+
+/* (cool effect, but unnecessary)
+/*form {*/
+    /*margin-top: 40px;*/
+    /*transition: all 3s ease-in-out;*/
+/*}*/
+
+form input,textarea{
+    width: 500px;
+}
+
+form textarea {
+    height: 150px;
+}
+
+
 #Email button {
     height:38px;
     background: #444;
@@ -73,12 +97,6 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     color:#fff;
-}
-
-#Email input[type="email"]{
-    padding:4px;
-    height:25px;
-    width:250px;
 }
 
 /* Portfolio/Projects
