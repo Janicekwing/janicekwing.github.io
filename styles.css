@@ -102,6 +102,10 @@ body {
     /*transition: all 3s ease-in-out;*/
 /*}*/
 
+body#Contact {
+    background-color: lightgrey;
+}
+
 form input,textarea{
     width: 500px;
 }
@@ -124,10 +128,13 @@ form textarea {
     display:flex;
     flex-direction: row;
     justify-content: center;
+    /*top: 50%;*/
+    /*left: 50%;*/
 }
 
 #Icons li{
     list-style: none;
+    transition: .5s;
 }
 
 #Icons li a{
@@ -136,6 +143,10 @@ form textarea {
     height: 50px;
     width: 50px;
     font-size: 35px;
+    border-radius: 50%;
+    background: #fff;
+    overflow:hidden;
+
 }
 
 
