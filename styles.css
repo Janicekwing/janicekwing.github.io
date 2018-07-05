@@ -95,13 +95,6 @@ body {
 /* Contact
 ----------------------------- */
 
-
-/* (cool effect, but unnecessary) */
-/*form {*/
-    /*margin-top: 40px;*/
-    /*transition: all 3s ease-in-out;*/
-/*}*/
-
 body#Contact {
     background-color: lightgrey;
 }
@@ -124,37 +117,41 @@ form textarea {
     color:#fff;
 }
 
-#Icons{
-    display:flex;
+#Icons {
+    display: flex;
     flex-direction: row;
     justify-content: center;
-    /*top: 50%;*/
-    /*left: 50%;*/
 }
 
-#Icons li{
+#Icons li {
     list-style: none;
-    transition: .5s;
-}
-
-#Icons li a{
-    margin: 10px 10px;
-    display: block;
-    height: 50px;
-    width: 50px;
-    font-size: 37px;
-    border-radius: 50%;
+    width: 80px;
+    height: 80px;
     background: #fff;
-    overflow:hidden;
+    text-align: center;
+    line-height: 80px;
+    font-size: 35px;
+    margin: 20px 25px;
+    display: block;
+    border-radius: 50%;
     transition: .5s;
 }
 
-
-
-#Icons li a:hover{
+#Icons li:hover{
     transform: rotateY(360deg);
 }
 
+/*#Icons li:nth-child(1) a:before{*/
+    /*background: #1da1f2;*/
+/*}*/
+
+/*#Icons li:nth-child(2) a:before{*/
+    /*background: #007bb5;*/
+/*}*/
+
+/*#Icons li:nth-child(3) a:before{*/
+    /*background: #4078c0;*/
+/*}*/
 /* Footer
 ----------------------------- */
 footer {
