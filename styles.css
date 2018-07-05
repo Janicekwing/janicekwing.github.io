@@ -138,17 +138,22 @@ form textarea {
 }
 
 #Icons li a{
-    margin: 0 10px;
+    margin: 10px 10px;
     display: block;
     height: 50px;
     width: 50px;
-    font-size: 35px;
+    font-size: 37px;
     border-radius: 50%;
     background: #fff;
     overflow:hidden;
-
+    transition: .5s;
 }
 
+
+
+#Icons li a:hover{
+    transform: rotateY(360deg);
+}
 
 /* Footer
 ----------------------------- */
