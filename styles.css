@@ -24,7 +24,6 @@ header {  /*photo of me */
 ----------------------------- */
 .nav { /*position: fixed -> make navbar unmoveable */
     background-color: #595959;
-    color: #FFF;
     text-align: right;
     padding: 20px 0 20px 0;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -39,25 +38,24 @@ body {
     margin-top: 180px; /* margin top to overload content overlay */
 }
 
-.nav li {
-    display:inline-block;
-    padding-right: 50px;;
-}
-
 .nav a {
     text-decoration: none;
     text-transform: uppercase;
     color: #FFF;
 }
 
+.nav li {
+    display:inline-block;
+    padding-right: 50px;;
+}
+
 .nav img{
     max-width:200px;
     height: auto;
-
     display: block;
     margin-left: auto;
     margin-right: auto;
-
+    border: 1px solid black;
 }
 
 .nav a:hover {
