@@ -1,0 +1,157 @@
+/* Global styles
+----------------------------- */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+}
+
+/* Heading
+----------------------------- */
+h1, h2, h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
+}
+
+/* Header
+----------------------------- */
+header {  /*photo of me */
+    text-align: center;
+}
+
+/* Navbar
+----------------------------- */
+.nav { /*position: fixed -> make navbar unmoveable */
+    background-color: #595959;
+    text-align: right;
+    padding: 20px 0 20px 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.2em;
+    position: fixed; /* fixed navbar */
+    top: 0; /*navbar is positioned at the top of the page */
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    margin-top: 180px; /* margin top to overload content overlay */
+}
+
+.nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.nav li {
+    display:inline-block;
+    padding-right: 50px;;
+}
+
+.nav img{
+    max-width:200px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*border: 1px solid black;*/
+
+}
+
+.nav a:hover {
+    color: #C1C1C1;
+    transition: all 0.40s;
+}
+
+/* Portfolio/Projects
+----------------------------- */
+.flex {
+    display: flex;
+    flex-direction: row; /* display flex and flex direction row aligns content in a row */
+    align-content: flex-start;
+    -webkit-align-content: flex-start;
+}
+
+.projects img {
+    width: 30%;
+    height: 30%;
+}
+
+.projects p {
+    width: 70%;
+}
+
+/* Resume
+----------------------------- */
+
+/* Contact
+----------------------------- */
+
+body#Contact {
+    background-color: lightgrey;
+}
+
+form input,textarea{
+    width: 500px;
+}
+
+form textarea {
+    height: 150px;
+}
+
+
+#Email button {
+    height:38px;
+    background: #444;
+    border:0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:#fff;
+}
+
+#Icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#Icons li {
+    list-style: none;
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    text-align: center;
+    line-height: 80px;
+    font-size: 35px;
+    margin: 20px 25px;
+    display: block;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+#Icons li:hover{
+    transform: rotateY(360deg);
+}
+
+/*#Icons li:nth-child(1) a:before{*/
+    /*background: #1da1f2;*/
+/*}*/
+
+/*#Icons li:nth-child(2) a:before{*/
+    /*background: #007bb5;*/
+/*}*/
+
+/*#Icons li:nth-child(3) a:before{*/
+    /*background: #4078c0;*/
+/*}*/
+/* Footer
+----------------------------- */
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #444;
+}
+
+
